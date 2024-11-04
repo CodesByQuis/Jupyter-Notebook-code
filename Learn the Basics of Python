@@ -1,0 +1,35 @@
+# Part 1: Learn the Basics
+
+# 1. Hello World
+print("Hello, World!")
+
+# 2. Variables and Types
+my_int = 10
+my_float = 10.0
+my_string = "Hello, Python!"
+print(f"Integer: {my_int}, Float: {my_float}, String: '{my_string}'")
+
+# 3. Lists
+my_list = [1, 2, 3, 4, 5]
+print("List:", my_list)
+print("First element:", my_list[0])
+
+# 4. Basic Operators
+a = 10
+b = 5
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+# 5. String Formatting
+name = "Dr. Bemley"
+age = 50
+print("Name: {}, Age: {}".format(name, age))
+
+# 6. Basic String Operations
+text = "Hello, World!"
+print("Length of text:", len(text))
+print("Text in uppercase:", text.upper())
+print("Does text start with 'Hello'? -", text.startswith("Hello"))
+print("Replace 'World' with 'Python':", text.replace("World", "Python"))
