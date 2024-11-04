@@ -1,0 +1,46 @@
+# Part 2: Learn the Basics (Continued)
+
+# 7. Conditions
+x = 10
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+
+# 8. Loops
+for i in range(5):
+    print("Iteration", i)
+
+count = 0
+while count < 5:
+    print("Count:", count)
+    count += 1
+
+# 9. Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Python"))
+
+# 10. Classes and Objects
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        return "Woof!"
+
+dog = Dog("Buddy")
+print(f"{dog.name} says: {dog.bark()}")
+
+# 11. Dictionaries
+my_dict = {"name": "Alice", "age": 25}
+print("Name:", my_dict["name"])
+print("Age:", my_dict["age"])
+
+# 12. Modules and Packages
+# Importing math module
+import math
+print("Square root of 16:", math.sqrt(16))
