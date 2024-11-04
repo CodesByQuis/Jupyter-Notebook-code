@@ -1,0 +1,30 @@
+# Part 3: Data Science
+
+# 13. Numpy Arrays
+import numpy as np
+
+# Create a numpy array
+array = np.array([1, 2, 3, 4, 5])
+print("Numpy Array:", array)
+print("Array Mean:", np.mean(array))
+print("Array Sum:", np.sum(array))
+
+# 14. Pandas Basics
+import pandas as pd
+
+# Create a pandas DataFrame
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35],
+    "City": ["New York", "Los Angeles", "Chicago"]
+}
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+
+# Select a column
+print("Ages:", df["Age"])
+
+# Filter data
+print("People older than 28:")
+print(df[df["Age"] > 28])
